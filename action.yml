@@ -1,0 +1,9 @@
+name: 'Push to S3'
+author: 'Jon Friesen'
+branding:
+  icon: 'upload-cloud'
+  color: 'orange'
+description: 'Uses s3cmd to upload a single file to an S3 bucket'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
