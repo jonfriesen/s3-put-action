@@ -10,6 +10,8 @@
 #### These should be defined in your Action workflow
 - `LOCAL_FILE` location of file for upload
 - `REMOTE_FILE` intended location for file
+#### Optiona
+- `INCLUDE_MD5` will include your file postfixed with `.md5` and the md5 hash for that binary
 
 ### Example
 
